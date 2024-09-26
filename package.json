@@ -1,0 +1,53 @@
+{
+  "name": "xzw-ui",
+  "version": "1.0.0",
+  "description": "模仿antd的组件库",
+  "main": "index.js",
+  "scripts": {
+    "dev:storybook": "pnpm --filter @xzw-ui/play storybook"
+  },
+  "dependencies": {
+    "lodash": "4.17.21",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "xzw-ui": "workspace:*",
+    "@xzw-ui/play": "workspace:*",
+    "@xzw-ui/vite-plugins": "workspace:*",
+    "@xzw-ui/components": "workspace:*",
+    "@xzw-ui/hooks": "workspace:*",
+    "@xzw-ui/theme": "workspace:*",
+    "@xzw-ui/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.17.9",
+    "@types/node": "22.7.2",
+    "@types/shelljs": "0.8.15",
+    "@vitest/coverage-v8": "2.1.1",
+    "cross-env": "7.0.3",
+    "cssnano": "7.0.6",
+    "jsdom": "25.0.1",
+    "npm-run-all": "4.1.5",
+    "postcss-color-mix": "1.1.0",
+    "postcss-each": "1.1.0",
+    "postcss-each-variables": "0.3.0",
+    "postcss-for": "2.1.1",
+    "postcss-nested": "6.2.0",
+    "prettier": "3.3.3",
+    "rollup": "4.22.4",
+    "shelljs": "0.8.5",
+    "typescript": "5.6.2",
+    "vite": "5.4.8",
+    "vite-plugin-dts": "4.2.2",
+    "vitest": "2.1.1"
+  },
+  "keywords": [
+    "ui",
+    "antd",
+    "xzw"
+  ],
+  "author": "anhuixieqijun@163.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@xzw-ui/components",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.ts",
+  "scripts": {},
+  "devDependencies": {
+    "axios": "1.7.7"
+  },
+  "keywords": [
+    "ui",
+    "antd",
+    "xzw"
+  ],
+  "author": "anhuixieqijun@163.com",
+  "license": "ISC"
+}

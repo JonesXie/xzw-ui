@@ -1,0 +1,11 @@
+{
+  "name": "@xzw-ui/locale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "module": "index.ts",
+  "scripts": {},
+  "keywords": [],
+  "author": "anhuixieqijun@163.com",
+  "license": "ISC"
+}
