@@ -4,24 +4,30 @@
   "description": "模仿antd的组件库",
   "main": "index.js",
   "scripts": {
-    "dev:storybook": "pnpm --filter @xzw-ui/play storybook"
+    "dev": "pnpm --filter @xzw-ui/play dev",
+    "dev:storybook": "pnpm --filter @xzw-ui/play storybook",
+    "test:components": "pnpm --filter @xzw-ui/components test"
   },
   "dependencies": {
+    "@xzw-ui/components": "workspace:*",
+    "@xzw-ui/hooks": "workspace:*",
+    "@xzw-ui/play": "workspace:*",
+    "@xzw-ui/theme": "workspace:*",
+    "@xzw-ui/utils": "workspace:*",
+    "@xzw-ui/vite-plugins": "workspace:*",
     "lodash": "4.17.21",
     "react": "18.3.1",
     "react-dom": "18.3.1",
-    "xzw-ui": "workspace:*",
-    "@xzw-ui/play": "workspace:*",
-    "@xzw-ui/vite-plugins": "workspace:*",
-    "@xzw-ui/components": "workspace:*",
-    "@xzw-ui/hooks": "workspace:*",
-    "@xzw-ui/theme": "workspace:*",
-    "@xzw-ui/utils": "workspace:*"
+    "xzw-ui": "workspace:*"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "6.5.0",
+    "@testing-library/react": "16.0.1",
     "@types/lodash": "4.17.9",
-    "@types/node": "22.7.2",
+    "@types/node": "22.7.4",
+    "@types/react": "18.3.10",
     "@types/shelljs": "0.8.15",
+    "@vitejs/plugin-react": "4.3.2",
     "@vitest/coverage-v8": "2.1.1",
     "cross-env": "7.0.3",
     "cssnano": "7.0.6",
@@ -33,11 +39,11 @@
     "postcss-for": "2.1.1",
     "postcss-nested": "6.2.0",
     "prettier": "3.3.3",
-    "rollup": "4.22.4",
+    "rollup": "4.22.5",
     "shelljs": "0.8.5",
     "typescript": "5.6.2",
     "vite": "5.4.8",
-    "vite-plugin-dts": "4.2.2",
+    "vite-plugin-dts": "4.2.3",
     "vitest": "2.1.1"
   },
   "keywords": [

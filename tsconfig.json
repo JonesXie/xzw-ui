@@ -25,6 +25,7 @@
     "packages/**/*.ts",
     "packages/**/*.tsx",
     "packages/play/src/stories/*.stories.ts",
-    "vitest.config.ts"
+    "vitest.config.ts",
+    "types/react.d.ts"
   ]
 }

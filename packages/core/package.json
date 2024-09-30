@@ -1,0 +1,21 @@
+{
+  "name": "xzw-ui",
+  "version": "1.0.0",
+  "description": "模仿antd的组件库",
+  "main": "index.ts",
+  "scripts": {},
+  "dependencies": {
+    "@xzw-ui/components": "workspace:*"
+  },
+  "keywords": [
+    "ui",
+    "antd",
+    "xzw"
+  ],
+  "author": "anhuixieqijun@163.com",
+  "license": "ISC",
+  "publishConfig": {
+    "type": "git",
+    "registry": "https://registry.npmjs.org/"
+  }
+}

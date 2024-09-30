@@ -17,8 +17,7 @@
     "build": "vite build"
   },
   "peerDependencies": {
-    "vue": "^3.4.27",
-    "lodash-es": "^4.17.21"
+    "lodash": "4.17.21"
   },
   "author": "anhuixieqijun@163.com",
   "license": "ISC"
